@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Manrope:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  font-family: 'Manrope', sans-serif;
+}
+
+body .promo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 790px;
+  background-color: #0E0E0E;
+}
+
+body .promo .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1110px;
+  height: 96px;
+  background-color: #ad5b5b;
+  border-bottom: 1px solid rgba(250, 249, 249, 0.2);
+}
+
+body .promo .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 527px;
+}
+
+body .promo .container ul li {
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  list-style-type: none;
+}
+
+body .promo .container ul li:hover {
+  color: #D87D4A;
+}
+
+body a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=media.css.map */

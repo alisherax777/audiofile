@@ -1,0 +1,40 @@
+.promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 790px;
+    background-color: #0E0E0E;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1110px;
+        height: 96px;
+        background-color: rgb(173, 91, 91);
+        border-bottom: 1px solid rgba($color: #faf9f9, $alpha: 0.2);
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 527px;
+            li {
+                font-family: 'Manrope';
+                font-weight: 700;   
+                font-size: 13px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                list-style-type: none;
+                &:hover {
+                    color: $d-orange;
+                }
+            }
+        }
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+}
